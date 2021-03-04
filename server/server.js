@@ -5,8 +5,8 @@ if (process.env.NODE_ENV !== "production") {
   // Required External Modules
   const express = require("express");
   const cors = require("cors");
-  const { v4: uuidv4 } = require("uuid");
-
+  const helmet = require("helmet");
+  const bodyParser = require("body-parser");
   const mysql = require("mysql");
   const path = require("path");
   
@@ -18,7 +18,8 @@ if (process.env.NODE_ENV !== "production") {
  
   
   // use
-  app.use(express.urlencoded());
+  app.use(bodyParser.json());
+  app.use(bodyParser.urlencoded({ extended: true }));
   app.use(helmet());
   app.use(cors());
   
