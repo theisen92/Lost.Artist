@@ -1,0 +1,43 @@
+.navbar-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #C89F9C;
+    
+
+    
+    .navbar-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 8px;
+
+        .burger-line {
+            width: 30px;
+            height: 3px;
+            background-color: white;
+            margin: 4px 0;
+            
+        }
+    }
+
+    .lost-artist-font {
+        
+
+        .no-decoration {
+            font-family: 'Sarpanch', sans-serif;
+            text-decoration: none;
+            font-size: 1.25em;
+            color: white;
+            font-weight: bolder;
+            
+        }
+    }
+    .navbar-right {
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+
+       
+    }
+}
