@@ -11,18 +11,26 @@
         flex-direction: column;
         justify-content: center;
         margin-left: 8px;
+        
 
         .burger-line {
             width: 30px;
             height: 3px;
             background-color: white;
             margin: 4px 0;
-            
+            transition: all .2s ease-in-out;
+        }
+
+        &:hover {
+            .burger-line{
+                transform: scale(1.25);
+            }
         }
     }
 
     .lost-artist-font {
         margin-left: 120px;
+        
 
         .no-decoration {
             font-family: 'Sarpanch', sans-serif;
@@ -30,7 +38,13 @@
             font-size: 1.25em;
             color: white;
             font-weight: bolder;
-            
+            transition: all .2s ease-in-out;
+        }
+
+        &:hover {
+            .no-decoration {
+                transform: scale(1.1);
+            }
         }
     }
     .navbar-right {
@@ -38,6 +52,20 @@
         display: flex;
         justify-content: space-around;
 
+            ion-icon {
+                margin-top: 15px;
+                font-size: 2.5em;
+                color: white;
+                transition: all .2s ease-in-out; 
+                
+                
+            }
+
+           &:hover {
+                    ion-icon {
+                    transform: scale(1.1);
+                    }
+             }
        
     }
 }

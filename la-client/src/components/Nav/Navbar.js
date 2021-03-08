@@ -4,24 +4,30 @@ import { Link } from "react-router-dom";
 import "./navbar-styles.scss";
 
 function Navbar() {
+
+   function handleMenuClick() {
+        console.log("menu click!")
+    }
+
     return (
         <div className="navbar-main">
-            <div className="navbar-left">
+            <div className="navbar-left" onClick={handleMenuClick}>
                 <div className="burger-line"></div>
                 <div className="burger-line"></div>
                 <div className="burger-line"></div>
                 <div className="burger-line"></div>
             </div>
             <div className="lost-artist-font">
-                <p><Link className="no-decoration"  to="/" >Lost Artist</Link></p>
+                <p className="no-decoration"><Link className="no-decoration"  to="/" >Lost Artist</Link></p>
             </div>
             
             <div className="navbar-right">
                 <div>
-                   <p>profile</p> 
+                    <ion-icon  name="person-circle-outline"></ion-icon>
                 </div>
                 <div>
-                     <p>cart</p>
+                    <ion-icon name="cart-outline"></ion-icon>
+                     
                 </div>
                
             </div>
