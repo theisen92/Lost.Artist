@@ -23,7 +23,7 @@ function Navbar() {
             
             <div className="navbar-right">
                 <div>
-                    <ion-icon  name="person-circle-outline"></ion-icon>
+                    <Link to="/my-profile"><ion-icon  name="person-circle-outline"></ion-icon></Link>
                 </div>
                 <div>
                     <ion-icon name="cart-outline"></ion-icon>
