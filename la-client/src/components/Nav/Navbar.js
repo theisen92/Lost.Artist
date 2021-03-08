@@ -10,6 +10,7 @@ function Navbar() {
                 <div className="burger-line"></div>
                 <div className="burger-line"></div>
                 <div className="burger-line"></div>
+                <div className="burger-line"></div>
             </div>
             <div className="lost-artist-font">
                 <p><Link className="no-decoration"  to="/" >Lost Artist</Link></p>
