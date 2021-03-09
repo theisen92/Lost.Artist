@@ -1,0 +1,50 @@
+.dropdown-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column; 
+    top: 80px;
+    z-index: 5;
+    border: 2px solid black;
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    padding-left: 5px;
+    
+    .tier1-ul {
+        list-style-type: none;
+        padding-inline-start: 0;
+
+        li {
+            margin-bottom: 5px;
+        }
+    }
+
+    .tier2-ul {
+        list-style-type: none;
+        padding-inline-start: 30px;
+
+    }
+}
+
+.isCartMenu { 
+        margin-right: 15px;
+        padding-left: 5px;
+        right: 0;
+    }
+
+.isHamburgerMenu {
+        margin-left: 15px;
+        
+        left: 0;
+    } 
+
+
+
+// className=" a b c" 
+
+// .a {}
+// .b {}
+// .c {}
+
+
+// .a { .b {} c}
