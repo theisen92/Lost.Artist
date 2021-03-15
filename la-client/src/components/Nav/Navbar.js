@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import DropDownMenu from "../drop-down-menu/DropDownMenu-";
+import HamburgerIcon from "../hamburger-icon/hamburger-icon";
 import "./navbar-styles.scss";
 
 function Navbar() {
@@ -27,10 +28,7 @@ function Navbar() {
     return (
         <div className="navbar-main">
             <div className="navbar-left" onClick={handleMenuClick}>
-                <div className="burger-line"></div>
-                <div className="burger-line"></div>
-                <div className="burger-line"></div>
-                <div className="burger-line"></div>
+                <HamburgerIcon />
             </div>
             <div className="lost-artist-font">
                 <p className="no-decoration"><Link className="no-decoration"  to="/" >Lost Artist</Link></p>
