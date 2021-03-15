@@ -11,7 +11,7 @@ function App() {
     <>
     <Navbar />
       <Switch>
-        <Route to="/user/login-register" component={SignInRegister} />
+        <Route exact={true} to="/user/login-register" component={SignInRegister} />
         <Route exact={true} to="/" component={Home} />
         
       </Switch>
