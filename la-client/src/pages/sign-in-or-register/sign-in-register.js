@@ -60,8 +60,8 @@ function SignInRegister() {
             <div className="login-box">
                 <h2>Login</h2>
                 <form className="login-form" onSubmit={handleLoginSubmit}>
-                    <TextBox type={"text"} name={"username"} value={login.username} placeholder={"username"} onChange={handleTextChange}/>
-                    <TextBox type={"password"} name={"password"} value={login.password} placeholder={"password"} onChange={handleTextChange}/>
+                    <TextBox type={"text"} name={"username"} value={login.username} placeholder="username" onChange={handleTextChange}/>
+                    <TextBox type={"password"} name={"password"} value={login.password} placeholder="password" onChange={handleTextChange}/>
                     <button type="submit" className="btn">Login</button>
                 </form>
                 
