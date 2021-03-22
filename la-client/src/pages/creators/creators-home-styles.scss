@@ -1,0 +1,17 @@
+.creators-home {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+    .creator-item-tiles {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+    }
+}

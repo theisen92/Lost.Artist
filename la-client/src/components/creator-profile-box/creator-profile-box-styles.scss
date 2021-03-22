@@ -1,0 +1,27 @@
+.creator-box-parent {
+    margin: 0 auto;
+    width: 60%;
+    color: white;
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+   .creator-img {
+        border: 2px solid black;
+        height: 200px;
+        width: 125px;
+        float: left;
+        margin-right: 15px; 
+   }
+
+   .creator-location{
+       padding-bottom: 7px;
+       border-bottom: 2px solid white;
+       margin-bottom: 0;  
+   }
+
+   .creator-about-me {
+       margin-top: 5px;
+   }
+}
